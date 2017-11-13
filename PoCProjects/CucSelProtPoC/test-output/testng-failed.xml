@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.poc.ClsRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.poc.ClsRunner -->
+      <class name="com.poc.ClsLoginFeature">
+        <methods>
+          <include name="i_verify_the_displayed_Web_Elements_on_Login_Page"/>
+          <include name="access_Glide_Path_Analyzer_application_at_https_gpa_pimco_com_login"/>
+        </methods>
+      </class> <!-- com.poc.ClsLoginFeature -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

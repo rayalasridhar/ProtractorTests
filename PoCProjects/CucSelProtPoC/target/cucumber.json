@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate the Web Elements on Login Page",
+        "description": "",
+        "id": "login-page-fields;validate-the-web-elements-on-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7800138323,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Chrome web browser",
+            "match": {
+              "location": "ClsLoginFeature.i_launch_Chrome_web_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3202465096,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Access Glide Path Analyzer application at https://gpa.pimco.com/login",
+            "match": {
+              "location": "ClsLoginFeature.access_Glide_Path_Analyzer_application_at_https_gpa_pimco_com_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5705559395,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the displayed Web Elements on Login Page",
+            "match": {
+              "location": "ClsLoginFeature.i_verify_the_displayed_Web_Elements_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page fields",
+    "description": "",
+    "id": "login-page-fields",
+    "keyword": "Feature",
+    "uri": "pomLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
